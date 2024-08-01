@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Spicy+Rice&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: "Playwrite AT", cursive;
+}
+.Parent{
+    margin-top: 24px;
+    background: #f3f3f3;
+    width: 226px;
+    padding: 24px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+}
