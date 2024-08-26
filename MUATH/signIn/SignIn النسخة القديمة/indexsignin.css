@@ -1,0 +1,154 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+.div1 {
+  width: 100%;
+  height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.bag1 {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between;
+}
+
+.frem1 {
+  background-color: white;
+  /* width: 3px; */
+}
+
+.h1signin {
+  margin-top: 60px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  font-size: 48px;
+  color: #043133;
+}
+
+.inpotsignin1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  padding: 50px;
+}
+
+#inp1 {
+  background-color: #eff0f2;
+  width: 600px;
+  height: 66.23px;
+  padding: 30px;
+  color: #838383;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+#inp2 {
+  background-color: #eff0f2;
+  width: 600px;
+  height: 66.23px;
+  padding: 30px;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+#inp3 {
+  background-color: #eff0f2;
+  width: 600px;
+  height: 66.23px;
+  padding: 30px;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.inp11 {
+  color: #4d5959;
+}
+.inp22 {
+  color: #4d5959;
+}
+.inp33 {
+  color: #4d5959;
+}
+#CreateAccount {
+  width: 340px;
+  height: 61px;
+  background-color: #007074;
+  color: #ffffff;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 20px;
+  margin: 20px 15px;
+  margin-top: 60px;
+  font-size: 26px;
+  text-decoration: white;
+  display: inline-block;
+}
+
+.butCreateAccount {
+  color: white;
+}
+.parbut {
+  font-size: 18px;
+  color: #4d5959;
+  display: grid;
+  justify-content: center;
+}
+.or {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  font-size: 26px;
+}
+.but2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 45px;
+}
+.imggoogle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 288px;
+  gap: 30px;
+  height: 62px;
+  border-color: #d2d2d2;
+  border-radius: 8px;
+  border-style: solid;
+  font-size: large;
+}
+.imggithup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 288px;
+  gap: 30px;
+  height: 62px;
+  border-color: #d2d2d2;
+  border-radius: 8px;
+  border-style: solid;
+  font-size: large;
+}
+
+.foto {
+  width: 300px;
+  border-radius: 8px;
+}

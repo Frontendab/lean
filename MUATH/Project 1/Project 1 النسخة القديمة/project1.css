@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: "Radio Canada Big", sans-serif;
+}
+
+header {
+
+    padding: 10px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+
+}
+
+ul > li {
+    text-transform: uppercase;
+
+}
+
+
+ul li a {
+    color: #505F98;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header nav .brand h1 {
+    color: #37447E;
+    font-weight: bolder;
+}
+
+.mainBtn {
+    width: 160px;
+    height: 26px;
+    background: #111B47;
+    color: #ffffff;
+    border-radius: 2px;
+    border: 1px solid #000;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+main {
+    position: relative;
+}
+
+.hiro .contet-1 {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    width: 1200px;
+}
+
+
+.hiro div .title {
+    font-size: 45px;
+    font-weight: 200;
+}
+
+.hiro div .p__ {
+    margin-top: 20px;
+}
+
+.hiro div .p__ p {
+    font-size: 18px;
+    color: #37447E;
+}
+
+.hiro div .btns {
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+}
+
+.hiro div .btns .learn_more {
+    width: 160px;
+    height: 26px;
+    background: transparent;
+    color: black;
+    border-radius: 2px;
+    border: 2px solid #37447E;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.hiro .right {
+    position: absolute;
+    left: 30px;
+}
+
+.img11 {
+    width: 720px;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+
+}
+
+.button1 {
+    color: #ffffff;
+}
+
+.button2 {
+    color: #111B47;
+}
+
+.section2 {
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    margin-left: 40px;
+    color: #6F7CB2;
+    margin-top: 50px;
+   
+}
+
+.sectionh1 {
+    font-size:  36px;color: #000;
+    font-weight: 200px;
+    
+}
+
+.sections{
+   display: block;
+   align-items: center;
+
+   
+    
+}
+.sectionp {
+    font-size: 16px;
+}
+.imgsection2{
+    margin-top: 50px;
+}
+
+.smoldiv {
+    display: flex;
+
+}
+
+.smoldiv div {
+    padding: 10px;
+}
+.section11{
+    color: #000;
+    }
+    .sectionp2{
+        font-size: 16px;color: black;
+    }
+
+.sectionp3{
+    font-size: 16px;color: #000;
+}
+.section3{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 80px;
+    gap: 80px;
+
+}
+.section3p{
+    color: #6F7CB2;
+}
+.foto{
+    margin-top: 70px;
+    position: relative;
+    max-width: 100%;
+
+    
+    
+}
+.foto img {width: 100%;}
+
+.fotoh1{
+    position: absolute;
+    top:150px;
+   margin-left: 422px;
+    }
+.fotop1 {
+    position: absolute;
+    top: 235px;
+    margin-left: 310px;
+color: #6F7CB2;
+}
+.foto40{
+
+    position: absolute;
+    top: 380px;
+    margin-left: 571px;
+    font-style: normal;
+    color: #222F65;
+}
+.fotoui{
+    position: absolute;
+    top: 420px;
+    margin-left: 554.5px;
+    color: #37447E;
+
+    
+
+}
+.fotosee{
+    position: absolute;
+    top: 500px;
+    margin-left: 519.5px;
+    color: #5D6970;
+}
+.fotobutton{
+    position: absolute;
+    top: 530px;
+    margin-left: 425px;
+    width: 350px;
+    padding: 8px;
+    background: #111B47;color: #ffffff;
+    border-radius: 8px;
+}
+.listnav0{
+    width: 100%;
+    height: 216px;
+    background-color: #E7ECFF;
+}
+.listnav1{
+    width:80%;
+    margin-left: 104px;
+    padding-top: 50px;
+
+}
+.listnavul li a {
+    color: #929ECC;
+}
+
+
+.listbuton{
+    width: 109px;
+    height: 26px;
+    background: #111B47;color: #ffffff;
+    border-radius: 8px;
+    border: 0px;
+
+}
+.Yourcompany{
+    color:#939EA4;
+}
+.listnavhr{
+margin-top: 40px;
+width: 80%;
+margin-left: 104px;
+}
+.listnavh1{
+    color: #37447E;
+    font-size: 30px;
+}
+.listnav00{
+    width: 80%;
+    margin-left: 104px;
+    margin-top: 40px;
+}
+.listnavmid{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+
+
+/* CSS للهواتف الصغيرة */
+@media (max-width: 767px) {
+    .hiro .contet-1 {
+        width: 100%;
+    }
+   ul{
+    display: none;
+    
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    /* CSS للأجهزة اللوحية */
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* CSS لشاشات الكمبيوتر المحمول */
+}
+
+@media (min-width: 1200px) {
+    /* CSS لشاشات الكمبيوتر المكتبي */
+}
